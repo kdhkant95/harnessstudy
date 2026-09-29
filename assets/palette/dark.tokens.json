@@ -1,0 +1,2953 @@
+{
+  "divider": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 0.11999999731779099,
+      "hex": "#FFFFFF"
+    },
+    "$description": "Reflects the divider variable from the theme object",
+    "$extensions": {
+      "com.figma.variableId": "VariableID:6636:20872",
+      "com.figma.scopes": [
+        "SHAPE_FILL",
+        "STROKE"
+      ]
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the text.primary variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20738",
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "TEXT_FILL",
+          "STROKE"
+        ]
+      }
+    },
+    "secondary": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.699999988079071,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the text.secondary variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20739",
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ]
+      }
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.3799999952316284,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the text.disabled variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20740",
+        "com.figma.scopes": [
+          "SHAPE_FILL",
+          "TEXT_FILL"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20741",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20742",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.11999999731779099,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20743",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#FFFFFF"
+        },
+        "$description": "Used for focus visible states. The token represents the value of focusVisibleOpacity (0.3 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20744",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      }
+    }
+  },
+  "primary": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5647059082984924,
+          0.7921568751335144,
+          0.9764705896377563
+        ],
+        "alpha": 1,
+        "hex": "#90CAF9"
+      },
+      "$description": "Reflects the primary.main variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20745",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:9a4f96c3ad3b89edf878d79e025318d73ddbcf5d/-1:-1",
+          "targetVariableName": "blue/200",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.25882354378700256,
+          0.6470588445663452,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#42A5F5"
+      },
+      "$description": "Used for hover states. Reflects the primary.dark variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20746",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:8a26aa736e3f90e9eba5f9fe1101829d69acd2c8/-1:-1",
+          "targetVariableName": "blue/400",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8901960849761963,
+          0.9490196108818054,
+          0.9921568632125854
+        ],
+        "alpha": 1,
+        "hex": "#E3F2FD"
+      },
+      "$description": "Reflects the primary.light variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20747",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:7e83f93c5f5c66047d19296980e177d9e0000714/-1:-1",
+          "targetVariableName": "blue/50",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.8700000047683716,
+        "hex": "#000000"
+      },
+      "$description": "Reflects the primary.contrast variable from the theme object. Color that keeps a contrast ratio above AA when XX.main is used as a bg. color",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20748",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647059082984924,
+            0.7921568751335144,
+            0.9764705896377563
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#90CAF9"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20749",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647059082984924,
+            0.7921568751335144,
+            0.9764705896377563
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#90CAF9"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20750",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647059082984924,
+            0.7921568751335144,
+            0.9764705896377563
+          ],
+          "alpha": 0.11999999731779099,
+          "hex": "#90CAF9"
+        },
+        "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20751",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647059082984924,
+            0.7921568751335144,
+            0.9764705896377563
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#90CAF9"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20752",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647059082984924,
+            0.7921568751335144,
+            0.9764705896377563
+          ],
+          "alpha": 0.5,
+          "hex": "#90CAF9"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20753",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "secondary": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8078431487083435,
+          0.5764706134796143,
+          0.8470588326454163
+        ],
+        "alpha": 1,
+        "hex": "#CE93D8"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20754",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fd781ec7a715de7d34363f02044c6a5a4dfd24be/-1:-1",
+          "targetVariableName": "purple/200",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6705882549285889,
+          0.27843138575553894,
+          0.7372549176216125
+        ],
+        "alpha": 1,
+        "hex": "#AB47BC"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20755",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:f6308bf17287ad6494306e97df6c153428e86e18/-1:-1",
+          "targetVariableName": "purple/400",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9529411792755127,
+          0.8980392217636108,
+          0.9607843160629272
+        ],
+        "alpha": 1,
+        "hex": "#F3E5F5"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20756",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1c4692f13d41e22bdc68f1e3a2e5534db87d6a2a/-1:-1",
+          "targetVariableName": "purple/50",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.8700000047683716,
+        "hex": "#000000"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20757",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.5764706134796143,
+            0.8470588326454163
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#CE93D8"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20758",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.5764706134796143,
+            0.8470588326454163
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#CE93D8"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20759",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.5764706134796143,
+            0.8470588326454163
+          ],
+          "alpha": 0.11999999731779099,
+          "hex": "#CE93D8"
+        },
+        "$description": "Used for focus states. The token represents the value of action.focusOpacity (0.12 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20760",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.5764706134796143,
+            0.8470588326454163
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#CE93D8"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20761",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8078431487083435,
+            0.5764706134796143,
+            0.8470588326454163
+          ],
+          "alpha": 0.5,
+          "hex": "#CE93D8"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20762",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "action": {
+    "active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20763",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    },
+    "hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.07999999821186066,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the action.hover variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20764",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    },
+    "selected": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.1599999964237213,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the action.selected variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20765",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    },
+    "focus": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.11999999731779099,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the action.focus variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20766",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    },
+    "disabled": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.30000001192092896,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the action.disabled variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20767",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    },
+    "disabledBackground": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 0.11999999731779099,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Reflects the action.disabledBackground variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20768",
+        "com.figma.scopes": [
+          "ALL_FILLS",
+          "STROKE"
+        ]
+      }
+    }
+  },
+  "error": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.95686274766922,
+          0.26274511218070984,
+          0.21176470816135406
+        ],
+        "alpha": 1,
+        "hex": "#F44336"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20769",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ac18de923a808b4782c607ccd1508ef5abfd97e6/-1:-1",
+          "targetVariableName": "red/500",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8274509906768799,
+          0.18431372940540314,
+          0.18431372940540314
+        ],
+        "alpha": 1,
+        "hex": "#D32F2F"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20770",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:ec0e761336d32e0d9332bf10e29038e7e00f57c4/-1:-1",
+          "targetVariableName": "red/700",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8980392217636108,
+          0.45098039507865906,
+          0.45098039507865906
+        ],
+        "alpha": 1,
+        "hex": "#E57373"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20771",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:23b169a23eabf90d02cce9b8ce63eb8d1f958a4b/-1:-1",
+          "targetVariableName": "red/300",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          1,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20772",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.95686274766922,
+            0.26274511218070984,
+            0.21176470816135406
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#F44336"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20773",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.95686274766922,
+            0.26274511218070984,
+            0.21176470816135406
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#F44336"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20774",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.95686274766922,
+            0.26274511218070984,
+            0.21176470816135406
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#F44336"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20775",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.95686274766922,
+            0.26274511218070984,
+            0.21176470816135406
+          ],
+          "alpha": 0.5,
+          "hex": "#F44336"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20776",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "warning": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.6549019813537598,
+          0.14901961386203766
+        ],
+        "alpha": 1,
+        "hex": "#FFA726"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20777",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fa7bb49de0697f045338b2206f6554105c1bfcf9/-1:-1",
+          "targetVariableName": "orange/400",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843160629272,
+          0.48627451062202454,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#F57C00"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20778",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:06adb4789d7f43791dbd66e8f9ea27a0301f7aba/-1:-1",
+          "targetVariableName": "orange/700",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.7176470756530762,
+          0.3019607961177826
+        ],
+        "alpha": 1,
+        "hex": "#FFB74D"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20779",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:b0298f201bf8f37386c580d97e738681154e0ad7/-1:-1",
+          "targetVariableName": "orange/300",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.8700000047683716,
+        "hex": "#000000"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20780",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.6549019813537598,
+            0.14901961386203766
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#FFA726"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20781",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.6549019813537598,
+            0.14901961386203766
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#FFA726"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20782",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.6549019813537598,
+            0.14901961386203766
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#FFA726"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20783",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.6549019813537598,
+            0.14901961386203766
+          ],
+          "alpha": 0.5,
+          "hex": "#FFA726"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20784",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "info": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.16078431904315948,
+          0.7137255072593689,
+          0.9647058844566345
+        ],
+        "alpha": 1,
+        "hex": "#29B6F6"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20785",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:2b7ab64d2526f17d843556eb7d5baae3772e1b88/-1:-1",
+          "targetVariableName": "lightBlue/400",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.007843137718737125,
+          0.5333333611488342,
+          0.8196078538894653
+        ],
+        "alpha": 1,
+        "hex": "#0288D1"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20786",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:bb2fa08f565b5b85309639dfa9e2ab76f21ff7c1/-1:-1",
+          "targetVariableName": "lightBlue/700",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.30980393290519714,
+          0.7647058963775635,
+          0.9686274528503418
+        ],
+        "alpha": 1,
+        "hex": "#4FC3F7"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20787",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:1148a3b24f27bb5c0a8623e5c613c78df73e9b35/-1:-1",
+          "targetVariableName": "lightBlue/300",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.8700000047683716,
+        "hex": "#000000"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20788",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.7137255072593689,
+            0.9647058844566345
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#29B6F6"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20789",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.7137255072593689,
+            0.9647058844566345
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#29B6F6"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20790",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.7137255072593689,
+            0.9647058844566345
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#29B6F6"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20791",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16078431904315948,
+            0.7137255072593689,
+            0.9647058844566345
+          ],
+          "alpha": 0.5,
+          "hex": "#29B6F6"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20792",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "success": {
+    "main": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4000000059604645,
+          0.7333333492279053,
+          0.4156862795352936
+        ],
+        "alpha": 1,
+        "hex": "#66BB6A"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20793",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:3848fa39600f493e5600f56f92a326181ec62bf9/-1:-1",
+          "targetVariableName": "green/400",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "dark": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21960784494876862,
+          0.5568627715110779,
+          0.23529411852359772
+        ],
+        "alpha": 1,
+        "hex": "#388E3C"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20794",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:fa275ce20b86e71f13f7ab044e5646e6291e1638/-1:-1",
+          "targetVariableName": "green/700",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "light": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5058823823928833,
+          0.7803921699523926,
+          0.5176470875740051
+        ],
+        "alpha": 1,
+        "hex": "#81C784"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20795",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:93e0a17eb191e5c052ca418d5b21620e4970e258/-1:-1",
+          "targetVariableName": "green/300",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    },
+    "contrastText": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.8700000047683716,
+        "hex": "#000000"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20796",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "_states": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.7333333492279053,
+            0.4156862795352936
+          ],
+          "alpha": 0.07999999821186066,
+          "hex": "#66BB6A"
+        },
+        "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20797",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.7333333492279053,
+            0.4156862795352936
+          ],
+          "alpha": 0.1599999964237213,
+          "hex": "#66BB6A"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20798",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "focusVisible": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.7333333492279053,
+            0.4156862795352936
+          ],
+          "alpha": 0.30000001192092896,
+          "hex": "#66BB6A"
+        },
+        "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20799",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "outlinedBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4000000059604645,
+            0.7333333492279053,
+            0.4156862795352936
+          ],
+          "alpha": 0.5,
+          "hex": "#66BB6A"
+        },
+        "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20800",
+          "com.figma.scopes": [
+            "STROKE"
+          ]
+        }
+      }
+    }
+  },
+  "common": {
+    "black": {
+      "_states": {
+        "main": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 1,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20801",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.07999999821186066,
+            "hex": "#000000"
+          },
+          "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20802",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "selected": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.1599999964237213,
+            "hex": "#000000"
+          },
+          "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20803",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "focus": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.11999999731779099,
+            "hex": "#000000"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20804",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "focusVisible": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.30000001192092896,
+            "hex": "#000000"
+          },
+          "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20805",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "outlinedBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0,
+              0,
+              0
+            ],
+            "alpha": 0.5,
+            "hex": "#000000"
+          },
+          "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20806",
+            "com.figma.scopes": [
+              "STROKE"
+            ]
+          }
+        }
+      }
+    },
+    "white": {
+      "_states": {
+        "main": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20807",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.07999999821186066,
+            "hex": "#FFFFFF"
+          },
+          "$description": "Used for hover states. The token represents the value of action.hoverOpacity (0.04 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20808",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "selected": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.1599999964237213,
+            "hex": "#FFFFFF"
+          },
+          "$description": "Used for selected states. The token represents the value of action.selectedOpacity (0.08 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20809",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "focus": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.11999999731779099,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20810",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "focusVisible": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.30000001192092896,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20811",
+            "com.figma.scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ]
+          }
+        },
+        "outlinedBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.5,
+            "hex": "#FFFFFF"
+          },
+          "$description": "Used for enabled states (e.g Button outlined variant). The token represents the value of outlinedBorderOpacity (0.5 by default) of the main token.",
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20812",
+            "com.figma.scopes": [
+              "STROKE"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_components": {
+    "paper": {
+      "outlineBorder": {
+        "$type": "color",
+        "$value": "{divider}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20813",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "elevation-0": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.07058823853731155,
+            0.07058823853731155,
+            0.07058823853731155
+          ],
+          "alpha": 1,
+          "hex": "#121212"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20814",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL",
+            "STROKE"
+          ]
+        }
+      },
+      "elevation-1": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.11764705926179886,
+            0.11764705926179886,
+            0.11764705926179886
+          ],
+          "alpha": 1,
+          "hex": "#1E1E1E"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20815",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-2": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.13725490868091583,
+            0.13725490868091583,
+            0.13725490868091583
+          ],
+          "alpha": 1,
+          "hex": "#232323"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20816",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-3": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.14509804546833038,
+            0.14509804546833038,
+            0.14509804546833038
+          ],
+          "alpha": 1,
+          "hex": "#252525"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20817",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-4": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.15294118225574493,
+            0.15294118225574493,
+            0.15294118225574493
+          ],
+          "alpha": 1,
+          "hex": "#272727"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20818",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-5": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.16470588743686676,
+            0.16470588743686676,
+            0.16470588743686676
+          ],
+          "alpha": 1,
+          "hex": "#2A2A2A"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20819",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-6": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1725490242242813,
+            0.1725490242242813,
+            0.1725490242242813
+          ],
+          "alpha": 1,
+          "hex": "#2C2C2C"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20820",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-7": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1725490242242813,
+            0.1725490242242813,
+            0.1725490242242813
+          ],
+          "alpha": 1,
+          "hex": "#2C2C2C"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20821",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-8": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18039216101169586,
+            0.18039216101169586,
+            0.18039216101169586
+          ],
+          "alpha": 1,
+          "hex": "#2E2E2E"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20822",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-9": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.18039216101169586,
+            0.18039216101169586,
+            0.18039216101169586
+          ],
+          "alpha": 1,
+          "hex": "#2E2E2E"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20823",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-10": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1921568661928177,
+            0.1921568661928177,
+            0.1921568661928177
+          ],
+          "alpha": 1,
+          "hex": "#313131"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20824",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-11": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1921568661928177,
+            0.1921568661928177,
+            0.1921568661928177
+          ],
+          "alpha": 1,
+          "hex": "#313131"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20825",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-12": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#333333"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20826",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-13": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#333333"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20827",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-14": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#333333"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20828",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-15": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "alpha": 1,
+          "hex": "#333333"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20829",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-16": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21176470816135406,
+            0.21176470816135406,
+            0.21176470816135406
+          ],
+          "alpha": 1,
+          "hex": "#363636"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20830",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-17": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21176470816135406,
+            0.21176470816135406,
+            0.21176470816135406
+          ],
+          "alpha": 1,
+          "hex": "#363636"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20831",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-18": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21176470816135406,
+            0.21176470816135406,
+            0.21176470816135406
+          ],
+          "alpha": 1,
+          "hex": "#363636"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20832",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-19": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21176470816135406,
+            0.21176470816135406,
+            0.21176470816135406
+          ],
+          "alpha": 1,
+          "hex": "#363636"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20833",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-20": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21960784494876862,
+            0.21960784494876862,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#383838"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20834",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-21": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21960784494876862,
+            0.21960784494876862,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#383838"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20835",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-22": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21960784494876862,
+            0.21960784494876862,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#383838"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20836",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-23": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21960784494876862,
+            0.21960784494876862,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#383838"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20837",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      },
+      "elevation-24": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.21960784494876862,
+            0.21960784494876862,
+            0.21960784494876862
+          ],
+          "alpha": 1,
+          "hex": "#383838"
+        },
+        "$description": "Reflects the background.paper variable from the theme object",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20838",
+          "com.figma.scopes": [
+            "FRAME_FILL",
+            "SHAPE_FILL"
+          ]
+        }
+      }
+    },
+    "table": {
+      "border": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3176470696926117,
+            0.3176470696926117,
+            0.3176470696926117
+          ],
+          "alpha": 1,
+          "hex": "#515151"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20839",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "avatar": {
+      "fill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4588235318660736,
+            0.4588235318660736,
+            0.4588235318660736
+          ],
+          "alpha": 1,
+          "hex": "#757575"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20840",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:91b2e2a88f98e1c36297128cf0d70e7aadc050bb/-1:-1",
+            "targetVariableName": "grey/600",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      }
+    },
+    "input": {
+      "standard": {
+        "enabledBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.41999998688697815,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20841",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "hoverBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20842",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "filled": {
+        "enabledFill": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.09000000357627869,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20843",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "hoverFill": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.11999999731779099,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20844",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "outlined": {
+        "enabledBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 0.23000000417232513,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20845",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "hoverBorder": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              1,
+              1
+            ],
+            "alpha": 1,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20846",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      }
+    },
+    "switch": {
+      "knobFillEnabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8784313797950745,
+            0.8784313797950745,
+            0.8784313797950745
+          ],
+          "alpha": 1,
+          "hex": "#E0E0E0"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20847",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:4a1a6abb557fd5ef403477befddeb112b7e9f490/-1:-1",
+            "targetVariableName": "grey/300",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      },
+      "slideFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.3799999952316284,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20848",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "knowFillDisabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4588235318660736,
+            0.4588235318660736,
+            0.4588235318660736
+          ],
+          "alpha": 1,
+          "hex": "#757575"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20849",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:91b2e2a88f98e1c36297128cf0d70e7aadc050bb/-1:-1",
+            "targetVariableName": "grey/600",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      }
+    },
+    "rating": {
+      "enabledBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.23000000417232513,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20850",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "activeFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            0.7058823704719543,
+            0
+          ],
+          "alpha": 1,
+          "hex": "#FFB400"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20851",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "snackbar": {
+      "fill": {
+        "$type": "color",
+        "$value": "{_components.paper.elevation-6}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20852",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "chip": {
+      "defaultCloseFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 1,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20853",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "defaultHoverFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.11999999731779099,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20854",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      },
+      "defaultEnabledBorder": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3803921639919281,
+            0.3803921639919281,
+            0.3803921639919281
+          ],
+          "alpha": 1,
+          "hex": "#616161"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20855",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:0761437660664e89d89bccb43db630d5a12328fe/-1:-1",
+            "targetVariableName": "grey/700",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      },
+      "defaultFocusFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1,
+            1,
+            1
+          ],
+          "alpha": 0.20000000298023224,
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20856",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "tooltip": {
+      "fill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3803921639919281,
+            0.3803921639919281,
+            0.3803921639919281
+          ],
+          "alpha": 0.8999999761581421,
+          "hex": "#616161"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20857",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "backdrop": {
+      "fill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0,
+            0,
+            0
+          ],
+          "alpha": 0.5,
+          "hex": "#000000"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20858",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "appBar": {
+      "defaultFill": {
+        "$type": "color",
+        "$value": "{_components.paper.elevation-4}",
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20859",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ]
+        }
+      }
+    },
+    "breadcrumbs": {
+      "collapseFill": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4588235318660736,
+            0.4588235318660736,
+            0.4588235318660736
+          ],
+          "alpha": 1,
+          "hex": "#757575"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20860",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:91b2e2a88f98e1c36297128cf0d70e7aadc050bb/-1:-1",
+            "targetVariableName": "grey/600",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      }
+    },
+    "alert": {
+      "error": {
+        "color": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.95686274766922,
+              0.7803921699523926,
+              0.7803921699523926
+            ],
+            "alpha": 1,
+            "hex": "#F4C7C7"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20861",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.08627451211214066,
+              0.04313725605607033,
+              0.04313725605607033
+            ],
+            "alpha": 1,
+            "hex": "#160B0B"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20862",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "warning": {
+        "color": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1,
+              0.886274516582489,
+              0.7176470756530762
+            ],
+            "alpha": 1,
+            "hex": "#FFE2B7"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20863",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.09803921729326248,
+              0.07058823853731155,
+              0.027450980618596077
+            ],
+            "alpha": 1,
+            "hex": "#191207"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20864",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "info": {
+        "color": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7215686440467834,
+              0.9058823585510254,
+              0.9843137264251709
+            ],
+            "alpha": 1,
+            "hex": "#B8E7FB"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20865",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.027450980618596077,
+              0.07450980693101883,
+              0.0941176488995552
+            ],
+            "alpha": 1,
+            "hex": "#071318"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20866",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      },
+      "success": {
+        "color": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.800000011920929,
+              0.9098039269447327,
+              0.8039215803146362
+            ],
+            "alpha": 1,
+            "hex": "#CCE8CD"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20867",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        },
+        "background": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0470588244497776,
+              0.07450980693101883,
+              0.05098039284348488
+            ],
+            "alpha": 1,
+            "hex": "#0C130D"
+          },
+          "$extensions": {
+            "com.figma.variableId": "VariableID:6636:20868",
+            "com.figma.scopes": [
+              "ALL_SCOPES"
+            ]
+          }
+        }
+      }
+    },
+    "stepper": {
+      "connector": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4588235318660736,
+            0.4588235318660736,
+            0.4588235318660736
+          ],
+          "alpha": 1,
+          "hex": "#757575"
+        },
+        "$extensions": {
+          "com.figma.variableId": "VariableID:6636:20869",
+          "com.figma.scopes": [
+            "ALL_SCOPES"
+          ],
+          "com.figma.aliasData": {
+            "targetVariableId": "VariableID:91b2e2a88f98e1c36297128cf0d70e7aadc050bb/-1:-1",
+            "targetVariableName": "grey/600",
+            "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+            "targetVariableSetName": "material/colors"
+          }
+        }
+      }
+    }
+  },
+  "background": {
+    "default": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.07058823853731155,
+          0.07058823853731155,
+          0.07058823853731155
+        ],
+        "alpha": 1,
+        "hex": "#121212"
+      },
+      "$description": "Reflects the background.default variable from the theme object",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20870",
+        "com.figma.scopes": [
+          "ALL_FILLS"
+        ]
+      }
+    },
+    "paper": {
+      "$type": "color",
+      "$value": "{_components.paper.elevation-0}",
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20871",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ]
+      }
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.14901961386203766,
+          0.19607843458652496,
+          0.21960784494876862
+        ],
+        "alpha": 1,
+        "hex": "#263238"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:8680:9923",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:78d0208e46b36f39f8b2521b40a96955c2626df7/-1:-1",
+          "targetVariableName": "blueGrey/900",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    }
+  },
+  "_native": {
+    "scrollbar-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3803921639919281,
+          0.3803921639919281,
+          0.3803921639919281
+        ],
+        "alpha": 1,
+        "hex": "#616161"
+      },
+      "$extensions": {
+        "com.figma.variableId": "VariableID:6636:20873",
+        "com.figma.scopes": [
+          "ALL_SCOPES"
+        ],
+        "com.figma.aliasData": {
+          "targetVariableId": "VariableID:0761437660664e89d89bccb43db630d5a12328fe/-1:-1",
+          "targetVariableName": "grey/700",
+          "targetVariableSetId": "VariableCollectionId:fc8eaab016876d33deff14c1bb4a52d69a7908d4/-1:-1",
+          "targetVariableSetName": "material/colors"
+        }
+      }
+    }
+  },
+  "$extensions": {
+    "com.figma.modeName": "dark"
+  }
+}

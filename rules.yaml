@@ -1,0 +1,152 @@
+version: 1
+status: approved
+orchestrator: AGENTS.md
+
+phases:
+  min_count: 3
+  max_count: 5
+  actual_count: 5
+
+phase_outputs:
+  - output/story-service.md
+  - rounds/purpose.md
+  - rounds/pipeline.md
+  - rounds/artifacts.md
+  - rounds/gates.md
+  - rounds/roles.md
+  - AGENTS.md
+
+filename_rules:
+  markdown_regex: "^[a-z0-9-]+\\.md$"
+  exceptions:
+    - AGENTS.md
+
+required_files:
+  - input/PRD.md
+  - output/story-service.md
+  - context/story-work.md
+  - context/domain.md
+  - context/design.md
+  - rounds/purpose.md
+  - rounds/pipeline.md
+  - rounds/artifacts.md
+  - rounds/gates.md
+  - rounds/roles.md
+  - AGENTS.md
+  - rules.yaml
+  - assets/palette/light.tokens.json
+  - assets/palette/dark.tokens.json
+
+agent_folders:
+  interviewer: agents/interviewer
+  writer: agents/writer
+  judge: agents/judge
+
+approval:
+  human_approval_points: 1
+  final_approval_file: AGENTS.md
+  final_approval_status: approved
+
+gates:
+  - id: G1
+    name: input_files_exist
+    type: exists_all
+    targets:
+      - input/PRD.md
+      - context/story-work.md
+      - context/domain.md
+      - context/design.md
+      - rounds/purpose.md
+      - rounds/pipeline.md
+      - rounds/artifacts.md
+      - rounds/gates.md
+      - rounds/roles.md
+      - AGENTS.md
+    pass_if: all_targets_exist
+    fail_return: R0
+
+  - id: G2
+    name: story_service_fresh_from_prd
+    type: mtime_gte
+    source: input/PRD.md
+    target: output/story-service.md
+    pass_if: target_mtime_gte_source_mtime
+    fail_return: R1
+
+  - id: G3
+    name: service_forbidden_rules_included
+    type: contains_all
+    target: AGENTS.md
+    contains:
+      - "권한 없는 데이터 노출 금지"
+      - "최고관리자 외 경영·재무 노출 금지"
+    pass_if: all_strings_found
+    fail_return: R1
+
+  - id: G4
+    name: design_rules_included
+    type: contains_all
+    target: AGENTS.md
+    contains:
+      - "MUI 디자인 시스템"
+      - "assets/palette/light.tokens.json"
+      - "assets/palette/dark.tokens.json"
+      - "1440x1080"
+      - "2~3개"
+    pass_if: all_strings_found
+    fail_return: context/design.md
+
+  - id: G5
+    name: artifact_filenames_valid
+    type: regex_match_all
+    targets:
+      - rounds/purpose.md
+      - rounds/pipeline.md
+      - rounds/artifacts.md
+      - rounds/gates.md
+      - rounds/roles.md
+    regex: "^[a-z0-9-]+\\.md$"
+    exceptions:
+      - AGENTS.md
+    pass_if: all_targets_match_or_are_exceptions
+    fail_return: R4
+
+  - id: G6
+    name: agent_boundaries_exist
+    type: exists_all
+    targets:
+      - agents/interviewer/status.md
+      - agents/writer/status.md
+      - agents/judge/status.md
+    pass_if: all_targets_exist
+    fail_return: R6
+
+  - id: G7
+    name: final_approval_recorded
+    type: contains_all
+    target: AGENTS.md
+    contains:
+      - "사용자가 승인했으므로"
+      - "최종 오케스트레이터로 확정"
+    pass_if: all_strings_found
+    fail_return: R7
+
+review_checks:
+  - id: C1
+    name: phase_count_within_range
+    type: numeric_between
+    value_ref: phases.actual_count
+    min_ref: phases.min_count
+    max_ref: phases.max_count
+  - id: C2
+    name: human_approval_point_count
+    type: count_equals
+    value_ref: approval.human_approval_points
+    expected: 1
+  - id: C3
+    name: judge_is_readonly
+    type: contains_all
+    target: rounds/roles.md
+    contains:
+      - "읽기전용 판정"
+      - "파일 수정 금지"
